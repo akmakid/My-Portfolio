@@ -16,14 +16,14 @@ html{
 }
 nav{
 	position: fixed;
-	display: flex;
+	display:flex;
 	background-color: black;
 	width: 100%;
-	align-items: right;
+	align-items: left;
 	justify-content: space-between;
 	padding-top: 30px;
 	padding-bottom: 10px;
-	padding-left: 8%;	
+	padding-left: 5%;	
 }
 .logo{
 	color: white;
@@ -79,7 +79,7 @@ h4{
 }
 .about{
 	width: 100%;
-	padding: 100px 0px;
+	padding: 100px ;
 	background-color: #191919;
 }
 .about img{
@@ -294,3 +294,15 @@ footer {
   .fab {
 	font-size: 24px;
   }
+
+  @media screen and (max-width: 768px) {
+	.about-text h2{		
+		font-size: 40px;
+	}
+	.about-text h5{		
+		font-size: 20px;
+	}
+	.about-text p{		
+		font-size: 10px;
+	}
+}s
