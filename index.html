@@ -8,7 +8,7 @@
 	<meta charset="utf-8">
 	<title>Portfolio website</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXGEL0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<!--<link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
@@ -22,11 +22,11 @@
 		<nav>
 			<h2 class="logo">My <span>Portfolio</span></h2>
 			<ul>
-				<li><a href="">Home</a></li>
+				<li><a href="">Home</a></li>				
 				<li><a href="#1">About Me</a></li>
-				<li><a href="#2">Education</a></li>
-				<li><a href="#3">Skills</a></li>
-				<li><a href="#5">Passion</a></li>
+				<li><a href="#2">Projects</a></li>
+				<li><a href="#3">Education</a></li>
+				<li><a href="#4">Skills</a></li>				
 			</ul>
 		</nav>
 		<div class="content">
@@ -48,6 +48,40 @@
 	</section>
 
 	<div class="s" id="2">
+		<div class="title">
+			<h2>Projects</h2>
+		</div>
+		<div class="box">
+			<div class="card">
+				<h5>SMK SEKSYEN 8 KOTA DAMANSARA</h5>
+				<div class="pra">
+					<ul>
+						<p>2014 - 2018</p>
+						<p>SPM</p>
+						<p>1A,3A-,1B,1C+,1D,1E</p>
+					</ul>
+				</div>
+			</div>
+			<div class="card">
+				<h5>UITM KUALA TERENGGANU</h5>
+				<div class="pra">
+					<p>2019 - 2022</p>
+					<p>DIPLOMA IN COMPUTER SCIENCE AND MATHEMATHICS</p>
+					<p>CGPA: 3.68</p>
+				</div>
+			</div>
+			<div class="card">
+				<h5>UITM SHAH ALAM</h5>
+				<div class="pra">
+					<p>2022 - NOW</p>
+					<p>BACHELOR OF COMPUTER SCIENCE (HONS.) MULTIMEDIA COMPUTING</p>
+					<p>CGPA: 3.58</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="s" id="3">
 		<div class="title">
 			<h2>Education</h2>
 		</div>
@@ -81,7 +115,7 @@
 		</div>
 	</div>
 
-	<div class="s" id="3">
+	<div class="s" id="4">
 		<div class="title">
 			<h2>Programming Skills</h2>
 		</div>
@@ -131,7 +165,7 @@
 			</div>
 		</div>
 		</div>
-		<div class="s" id="4">
+		<div class="s" id="5">
 		<div class="title">
 			<h2>Area of Knowledge</h2>
 		</div>
@@ -226,7 +260,7 @@
 		</div>
 	</section> -->
 	<footer>
-		<div class="about">
+		<div class="s">
 		  <p>&copy; <?php echo date("Y"); ?> AKMA AKID</p>
 		  <ul class="social-icons">
 			<li><a href="#"><i class="fab fa-github"></i></a></li>
@@ -235,7 +269,7 @@
 		  </ul>
 		</div>
 	  </footer>
-	<button onclick="topFunction()" id="myBtn" title="Go to top"> ^</button>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"> <i class="fa-solid fa-arrow-up"></i> </button>
 
 	<script>
 		window.onscroll = function() {
